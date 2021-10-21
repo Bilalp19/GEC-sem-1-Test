@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Week 3.cpp">
+    <ClCompile Include="Project_9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Project_10_ShareOfHaribo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
