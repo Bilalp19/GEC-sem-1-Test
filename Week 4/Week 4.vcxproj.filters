@@ -15,19 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Project_9.cpp">
+    <ClCompile Include="program14_10Numbers.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Project_10_ShareOfHaribo.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Project_11_Doom.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Project12_IfThisThenThat.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Project13_Discount.cpp">
+    <ClCompile Include="program15_StarryOutput.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
