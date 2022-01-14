@@ -5,17 +5,18 @@ void result(int numODD, int oddTOTAL, int numEVEN, int evenTOTAL);
 
 bool oddOrEven(int num);
 
-int evenNum;
-int oddNum;
-
-int oddSum, evenSum;
-
-bool even;
-bool odd;
 
 int main()
 {
     int userInput;
+    int evenNum;
+    int oddNum;
+
+    int oddSum, evenSum;
+
+    bool even;
+    bool odd;
+
 
     cout << "Please enter any 10 numbers" << endl;
 
@@ -24,6 +25,10 @@ int main()
         cin >> userInput, i;
         oddOrEven(userInput);
     }
+
+    if (even % 2 == 0);
+
+    else (odd % 2 != 0);
 
     result(oddNum, oddSum, evenNum, evenSum);
 
@@ -35,22 +40,25 @@ bool oddOrEven(int num)
 
     if (num % 2 == 0)
     {
-        cout << "even" << endl;
+        cout << "even" << endl; 
         even = true;
-
-        evenNum++;
+        odd = false;
+       evenNum++;
         evenSum += num;
+        return even, odd;
     }
 
     if (num % 2 != 0)
     {
         cout << "Odd" << endl;
         odd = false;
-        oddNum++;
-        oddSum += num;
+        even = true;
+        /*oddNum++;
+        oddSum += num;*/
+        return even, odd;
     }
 
-    return even, odd;
+
 }
 
 void result(int numODD, int oddTOTAL, int numEVEN, int evenTOTAL)

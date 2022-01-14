@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{f4031e6f-ea94-433d-a3c6-c6a418765aeb}</ProjectGuid>
-    <RootNamespace>Week7</RootNamespace>
+    <ProjectGuid>{5119b5cf-865e-4a64-bc33-5f59cbd1ce4a}</ProjectGuid>
+    <RootNamespace>epetCare</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,11 +139,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="program_25_Initials.cpp" />
-    <ClCompile Include="program_26_replacing.cpp" />
-    <ClCompile Include="program_27_StringManipulation.cpp" />
-    <ClCompile Include="Test.cpp" />
-    <ClCompile Include="test2.cpp" />
+    <ClCompile Include="Cat.cpp" />
+    <ClCompile Include="Dog.cpp" />
+    <ClCompile Include="epetCare.cpp" />
+    <ClCompile Include="Hamster.cpp" />
+    <ClCompile Include="Pet.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cat.h" />
+    <ClInclude Include="Dog.h" />
+    <ClInclude Include="Hamster.h" />
+    <ClInclude Include="Pet.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

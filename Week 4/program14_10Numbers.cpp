@@ -12,27 +12,27 @@
 //
 //
 //
-//	cout << "Enter number 1" << endl; 
+//	cout << "enter number 1" << endl; 
 //	cin >> num1;
-//	cout << "Enter number 2" << endl; 
+//	cout << "enter number 2" << endl; 
 //	cin >> num2;
 //
 //	sum = num1 + num2;
-//	cout << "Your sum of number is 1 and 2 is " << sum << endl;
+//	cout << "your sum of number is 1 and 2 is " << sum << endl;
 //
 //	average = sum / number;
 //
-//	cout << "The sum of the average mean is " << average << endl;
+//	cout << "the sum of the average mean is " << average << endl;
 //
 //	do
 //	{
-//		cout << "Please add another number" << endl;
+//		cout << "please add another number" << endl;
 //		cin >> num3;
 //		number++;
 //		sum = sum + num3;
-//		cout << "Your sum is " << sum << endl;
+//		cout << "your sum is " << sum << endl;
 //		average = sum / number;
-//		cout << "Your average is " << average << endl;
+//		cout << "your average is " << average << endl;
 //
 //		if (num3 == 0) 
 //		{

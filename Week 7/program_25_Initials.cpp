@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 
@@ -7,17 +8,24 @@ int main()
 {
 	char name[50];
 
-	cout << "Name:" << endl;
-	cin.getline (name, 50);
+	cout << "name:" << endl;
+	cin.getline (name, 50 );
 	
 
-	for (int i = 1; i < strlen(name); i++)
-
-		if (name[i])
+	for (int i = 0; i < strlen(name); i++)
+	{
+		if (name[i] == ' ')
 		{
-			cout << name[i - 1] << endl;
+			cout << endl;
+		}
+
+		else 
+		{
+			cout << name[i];
 		}
 			
+	}
+		
 	return 0;
 	
 }

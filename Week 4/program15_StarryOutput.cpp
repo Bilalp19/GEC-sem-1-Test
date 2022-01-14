@@ -34,10 +34,11 @@ int main()
 			system("pause");
 		}
 
-	} while (userResponse == 'y');
-	{
-
 	}
+	
+	while (userResponse == 'y');
+	
+
 }
 
 			

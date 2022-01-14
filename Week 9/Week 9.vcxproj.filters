@@ -15,19 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Test.cpp">
+    <ClCompile Include="program_36_Pointers.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="program_25_Initials.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="test2.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="program_26_replacing.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="program_27_StringManipulation.cpp">
+    <ClCompile Include="program_38_References.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
